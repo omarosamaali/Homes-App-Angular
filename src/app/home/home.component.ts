@@ -22,7 +22,9 @@ import { HousingService } from '../housing/housing.service';
 })
 export class HomeComponent implements OnInit {
   houseingLocationList: HousingLocation[] = [];
-  housingLocationItem: HousingLocation[] = [];
+  housingLocationItem: HousingLocation[] = [
+ 
+  ];
 
   constructor(private housingService: HousingService) { }
 
